@@ -3,7 +3,6 @@ import java.util.*;
 class lastStoneWeight {
     public int lastStoneWeight1(int[] stones) {
         PriorityQueue<Integer> q = new PriorityQueue<>(Collections.reverseOrder());
-        int n = stones.length;
    
         for(int i : stones){
             q.add(i);
